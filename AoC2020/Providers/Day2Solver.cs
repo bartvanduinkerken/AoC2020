@@ -6,7 +6,7 @@ using System.Text;
 namespace AoC2020.Providers
 {
     using Abstractions;
-    public class DayTwoSolver : ISolver<int>
+    public class Day2Solver : ISolver<int>
     {
         /// <summary>
         /// Each line gives the password policy and then the password. The password policy indicates the lowest and highest number of times a given letter must appear for the password to be valid. 

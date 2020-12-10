@@ -3,32 +3,32 @@
 namespace AoC2020.Tests.ProvidersTests
 {
     using Providers;
-    public class DayTwoTests
+    public class Day3Tests
     {
         [Fact]
-        public void When_stepA_executed_Returns_560()
+        public void When_stepA_executed_Returns_220()
         {
             // Arrange
-            var solver = new DayTwoSolver();
+            var solver = new Day3Solver();
 
             // Act
             var result = solver.StepA();
 
             // Assert
-            Assert.Equal(560, result);
+            Assert.Equal(220, result);
         }
 
         [Fact]
-        public void When_stepB_executed_Returns_303()
+        public void When_stepB_executed_Returns_2138320800()
         {
             // Arrange
-            var solver = new DayTwoSolver();
+            var solver = new Day3Solver();
 
             // Act
             var result = solver.StepB();
 
             // Assert
-            Assert.Equal(303, result);
+            Assert.Equal(2138320800, result);
         }
     }
 }

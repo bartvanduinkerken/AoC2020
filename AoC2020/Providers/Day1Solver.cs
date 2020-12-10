@@ -4,7 +4,7 @@ using System.Linq;
 namespace AoC2020.Providers
 {
     using Abstractions;
-    public class DayOneSolver : ISolver<int>
+    public class Day1Solver : ISolver<int>
     {
         /// <summary>
         /// Find the two entries that sum to 2020; what do you get if you multiply them together?
