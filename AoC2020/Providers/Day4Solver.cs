@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System;
-
+using System.IO;
+using System.Text.RegularExpressions;
 namespace AoC2020.Providers
 {
     using Abstractions;
-    using System.IO;
-    using System.Text.RegularExpressions;
 
     public class Day4Solver : ISolver<int>
     {
